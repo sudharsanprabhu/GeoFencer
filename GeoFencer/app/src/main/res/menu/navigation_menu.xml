@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/btnAccount"
+        android:title="@string/myAccount"
+        android:icon="@drawable/ic_account"/>
+    <item
+        android:id="@+id/btnShare"
+        android:title="@string/share_my_location"
+        android:icon="@drawable/ic_share"/>
+
+    <item
+        android:id="@+id/btnViewSharedLocation"
+        android:title="@string/view_shared_location"
+        android:icon="@drawable/ic_visible"/>
+
+
+    <group
+        android:id="@+id/groupID"
+        android:checkableBehavior="none">
+
+        <item
+            android:id="@+id/btnGeoAlarm"
+            android:title="GeoAlarm"
+            android:icon="@drawable/ic_alarm"/>
+
+
+    </group>
+
+</menu>
+

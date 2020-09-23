@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/btnDrawLBoundary"
+        android:title="Draw Boundary" />
+    <item
+        android:id="@+id/btnDeleteBoundary"
+        android:title="Delete Boundary" />
+
+    <item
+        android:id="@+id/btnDeleteAllMarkers"
+        android:title="Delete All Markers" />
+
+
+    <item android:title="Map Type">
+        <menu>
+           <item android:id="@+id/btnNormalMap"
+           android:title="Normal" />
+
+            <item android:id="@+id/btnSatelliteMap"
+                android:title="Satellite"/>
+
+            <item android:id="@+id/btnHybridMap"
+                android:title="Hybrid"/>
+        </menu>
+
+
+    </item>
+
+
+</menu>

@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">GeoFencer</string>
+    <string name="username">Username</string>
+    <string name="Password">Password</string>
+    <string name="usernameHInt">Username</string>
+    <string name="passwordHint">Password</string>
+    <string name="title_activity_maps">GeoFencer</string>
+    <string name="GeoFence">GeoFence</string>
+    <string name="StopMonitoring">Stop Monitoring</string>
+    <string name="myAccount">My Account</string>
+    <string name="share_my_location">Share My Location</string>
+    <string name="view_shared_location">View Shared Location</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="retypePassword">Retype Password"</string>
+    <string name="passwordMismatch">Passwords do not match</string>
+    <string name="blankFields">Please fill up all the fields…</string>
+    <string name="connectionFailed">Connection Failed</string>
+    <string name="remove_shared_account">Remove Shared Account</string>
+    <string name="change_password">Change Password</string>
+    <string name="accounts">Accounts</string>
+    <string name="logout">Logout</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="qr_code">QR Code</string>
+    <string name="scan_me">Scan Me</string>
+    <string name="name">Name</string>
+    <string name="create_account">Create Account</string>
+    <string name="new_password">New Password</string>
+    <string name="title_activity_geo_alarm_maps">Map</string>
+    <string name="settings">Settings</string>
+    <string name="buffer_radius_in_meters">Buffer Radius (in Meters)</string>
+    <string name="save">Save</string>
+    <string name="vibration">Vibration</string>
+    <string name="geoAlarm">GeoAlarm</string>
+    <string name="sound">Sound</string>
+    <string name="pick">Pick</string>
+    <string name="selectedSounds">Selected Sound: </string>
+    <string name="you_have_entered_your_boundary_region">You have entered your boundary region</string>
+    <string name="geoalarm">GeoAlarm</string>
+    <string name="cancel_alarm">Cancel Alarm</string>
+    <string name="set_alarm">Set Alarm</string>
+    <string name="logging_out">Logging out</string>
+
+    <string name="ip_changePassword">changePassword.php</string>
+    <string name="ip_setLocation">setLocation.php</string>
+    <string name="ip_sendConnectionStatus">sendConnectionStatus.php</string>
+    <string name="ip_login">login.php</string>
+    <string name="ip_getLocation">getLocation.php</string>
+    <string name="ip_sendCode">sendCode.php</string>
+    <string name="ip_register">register.php</string>
+    <string name="ip_logout">logout.php</string>
+
+
+
+</resources>

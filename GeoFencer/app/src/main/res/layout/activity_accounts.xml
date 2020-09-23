@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#1B1B1B"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="285dp"
+        android:background="@drawable/bgimg"
+        android:fontFamily="sans-serif"
+        android:gravity="bottom|end"
+        android:text="@string/accounts"
+        android:textColor="#FFF"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btnChangePassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="60dp"
+        android:gravity="start|center"
+        android:text="@string/change_password"
+        android:textAllCaps="false"
+        android:textColor="#FFFF"
+        android:textSize="25sp"
+        android:background="#00000000"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height= "3dp"
+        android:background="#3b3b3b"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"/>
+
+    <Button
+        android:id="@+id/btnRemove"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="60dp"
+        android:gravity="start|center"
+        android:text="@string/remove_shared_account"
+        android:textAllCaps="false"
+        android:textColor="#FFFF"
+        android:textSize="25sp"
+        android:background="#00000000"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height= "3dp"
+        android:background="#3b3b3b"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"/>
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="60dp"
+        android:gravity="start|center"
+        android:text="@string/logout"
+        android:textAllCaps="false"
+        android:textColor="#FFFF"
+        android:textSize="25sp"
+        android:background="#00000000"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height= "3dp"
+        android:background="#3b3b3b"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"/>
+
+
+</LinearLayout>
+</ScrollView>
